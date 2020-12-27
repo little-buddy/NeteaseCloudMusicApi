@@ -111,6 +111,7 @@ const port = process.env.PORT || 3000
 const host = process.env.HOST || ''
 
 app.server = app.listen(port, host, () => {
+  console.log('This is test~~~')
   console.log(`server running @ http://${host ? host : 'localhost'}:${port}`)
 })
 
