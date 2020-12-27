@@ -56,5 +56,11 @@
     "power-assert": "1.6.1",
     "prettier": "2.1.2",
     "typescript": "4.0.5"
+  },
+  "now": {
+    "env": {
+      "NODE_ENV": "production",
+      "PORT": "80"
+    }
   }
 }
